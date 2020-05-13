@@ -145,7 +145,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **fa**"
         msg = None
-        message_to_reply = f"**⚠️Sono AFK da** `{total_afk_time}`"\n\n + \
+        message_to_reply = f"**⚠️Sono AFK da** `{total_afk_time}`\n\n" + \
             f"\n\n**📌Prometto di tornare entro quest'anno.**\n\n**MOTIVO**: {reason}" \
             if reason \
             else f"**Hey!**\n\n**📴Scusami ma non ci sono al momento.**\n\n Da quanto, ti chiederai? __Da {total_afk_time} Credo.__\n\n**⏰Quando tornerò?** __Tra qualche ora o meno__"
